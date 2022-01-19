@@ -1,0 +1,1 @@
+conn_string = "dbname='*' port='5432' user='*' password='*' host='localhost'"
