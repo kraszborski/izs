@@ -18,5 +18,9 @@ Run simulation:
 python3 start_simulation.py
 ```
 
-See the video
+See the video (Normal situation - two floors)
 [![Watch the video](doc/simulation_sample.png)](https://youtu.be/mTJI8IyWP0Y)
+
+See the video (High temperature on 6th floor)
+[![Watch the video](doc/simulation_sample_2.png)](https://youtu.be/8b6n3aEB-aU)
+
