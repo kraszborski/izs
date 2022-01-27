@@ -12,5 +12,11 @@ How it works:
 * In a loop, we read point and insert it into positions database
 * We do this 4 times with a little different configuration (we start on different position and floor)
 
+Run simulation:
+
+```bash
+python3 start_simulation.py
+```
+
 See the video
 [![Watch the video](doc/simulation_sample.png)](https://youtu.be/mTJI8IyWP0Y)

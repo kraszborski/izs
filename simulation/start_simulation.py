@@ -16,7 +16,7 @@ def insertPosition(source_table, sensor_id, current_position, current_floor, cur
         print(query)
 
 position = 0
-temperature = 30
+temperature = 98
 while True:
     if position >= 418:
         print("Ending simulation")
@@ -24,8 +24,8 @@ while True:
     print("Getting information from sensors")
     insertPosition("simulace2", 1, position, 6, temperature, 1)
     insertPosition("simulace2", 2, position + 10, 6, temperature, 1)
-    insertPosition("simulace3", 3, position + 20, 7, temperature, 1)
-    insertPosition("simulace3", 4, position + 30, 7, temperature, 1)
+    insertPosition("simulace3", 3, position + 20, 7, temperature - 10, 1)
+    insertPosition("simulace3", 4, position + 30, 7, temperature - 10, 1)
     position += 1
     temperature += 0.1
     time.sleep(5)
