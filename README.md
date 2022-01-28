@@ -2,7 +2,12 @@
 
 Repo is for testing basic concepts of visualisation monitoring movement of fireman inside building.
 
-## simulation
+## Prepare
+
+The simulation is based on existing data in PostGIS database. There is sample dum in [db/izs.dump.gz](db/izs.dump.gz).
+
+
+## Simulation
 
 For purposes of communication with a customer there is simulation based on two created tracks 
 inside building A of VSB-TUO. 
