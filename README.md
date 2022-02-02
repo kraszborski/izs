@@ -6,6 +6,14 @@ Repo is for testing basic concepts of visualisation monitoring movement of firem
 
 The simulation is based on existing data in PostGIS database. There is sample dum in [db/izs.dump.gz](db/izs.dump.gz).
 
+Newly there is a version based on GPKG, so you do not need to install and configure PostGIS.
+You need to only edit [simulation/gpkg_simulation.py](simulation/gpkg_simulation.py) and set correct
+paths to [db/izs.gpkg](db/izs.gpkg).
+
+You must run simulation in QGIS in project [db/simulation.qgz](db/simulation.qgz)
+The simulation is using QThread that is imported into QGIS environment.
+To stop the simulation you have to create file specified in [simulation/gpkg_simulation.py](simulation/gpkg_simulation.py)
+otherwise the simulation stops after 5 * 418 seconds.
 
 ## Simulation
 
@@ -20,7 +28,11 @@ How it works:
 Run simulation:
 
 ```bash
-python3 start_simulation.py
+python3 postgis_simulation.py
+```
+
+```bash
+python3 gpkg_simulation.py
 ```
 
 See the video (Normal situation - two floors)
