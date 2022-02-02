@@ -25,14 +25,10 @@ How it works:
 * In a loop, we read point and insert it into positions database
 * We do this 4 times with a little different configuration (we start on different position and floor)
 
-Run simulation:
+Run simulation on PostGIS:
 
 ```bash
 python3 postgis_simulation.py
-```
-
-```bash
-python3 gpkg_simulation.py
 ```
 
 See the video (Normal situation - two floors)
@@ -40,4 +36,13 @@ See the video (Normal situation - two floors)
 
 See the video (High temperature on 6th floor)
 [![Watch the video](doc/simulation_sample_2.png)](https://youtu.be/8b6n3aEB-aU)
+
+Run simulation on GPKG:
+* Open [db/simulation.qgz](db/simulation.qgz) project
+* Open Python Console and run [simulation/gpkg_simulation.py](simulation/gpkg_simulation.py) script
+
+[![Watch the video](doc/simulation_gpkg.png)](https://youtu.be/_FjbdHfKZWU)
+
+
+
 
