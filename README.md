@@ -15,6 +15,9 @@ The simulation is using QThread that is imported into QGIS environment.
 To stop the simulation you have to create file specified in [simulation/gpkg_simulation.py](simulation/gpkg_simulation.py)
 otherwise the simulation stops after 5 * 418 seconds.
 
+Simulation is based on data from [RÚIAN](https://www.cuzk.cz/ruian/) and 
+on data created manually just for purposes of this simulation. 
+
 ## Simulation
 
 For purposes of communication with a customer there is simulation based on two created tracks 
